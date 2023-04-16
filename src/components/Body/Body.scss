@@ -1,0 +1,54 @@
+// .container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     margin-top: 50px;
+//   }
+  
+//   .toolbar {
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//   }
+  
+//   .colors {
+//     display: flex;
+//     flex-wrap: wrap;
+//   }
+  
+//   .colors span {
+//     border: none; /* remove the border */
+//     outline: none; /* remove the outline */
+//     cursor: pointer;
+//     margin-right: 10px;
+//   }
+  
+//   .colors span.active {
+//     border: 2px solid #fff;
+//   }
+  
+
+
+  
+  .colors {
+    display: flex;
+    border: 2px solid black;
+    height: 3rem;
+    align-items: center;
+    span {
+      width: 25px;
+      height: 25px;
+      margin-right: 10px;
+      border-radius: 50%;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+  
+      &.active {
+        box-shadow: 0 0 0 2px #fff;
+      }
+    }
+  }
+  
+
